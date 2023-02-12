@@ -6,7 +6,7 @@
 body {
   background-color: var(--bg-color);
   font-family: "Lato", sans-serif;
-  max-height: 100vh;
+  /* min-height: 100vh; */
 }
 ::selection {
   background-color: transparent;
@@ -18,7 +18,7 @@ body {
 /*******************/
 
 .main {
-  padding: 5% 7% 10%;
+  padding: 5% 7%;
 }
 .grid-container {
   display: grid;
@@ -210,4 +210,11 @@ button {
 .socre__max {
   /* border-bottom: 1px solid orange; */
   color: orange;
+}
+
+footer {
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  /* color: orange; */
+  font-weight: 400;
 }
